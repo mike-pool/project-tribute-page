@@ -1,11 +1,61 @@
-#image-div {
-  display: flex; justify-content: center;
+body {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	font-size: 2.5rem;
+	background-color: #CC0000;
+	color: #FFD700;
+	width: 50vw;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 3px;
+}
+
+#about {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	max-width: 1000px;
+	margin: 0 auto 30px auto;
+}
+
+#tribute-info {
+	display: block;
+	max-width: 400px;
+	text-align: justify;
+	margin-right: 20px;
+}
+
+figure {
+	margin-bottom: 0;
 }
 
 #image {
   display: block;
-  width: auto;
+  width: 25vw;
   height: auto;
-  max-width: 100%;
+  max-width: 280px;
   max-height: 100%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 2px 5px #505050
+}
+
+#thank-you {
+	font-size: 1.3rem;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+#thank-stanislav, #ww3 {
+	display: inline-block;
+}
+
+#ww3 {
+	color: #FFFFFF;
+	background-color: rgb(0, 159, 220, 0.62);
+	box-shadow: 0 0 8px 5px rgba(0, 159, 220, 0.7);
 }
